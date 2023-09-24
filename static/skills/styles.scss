@@ -1,0 +1,30 @@
+$background-color: #232323;
+
+body {
+  background-color: $background-color;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.skills-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin-top: 40px;
+
+  img {
+    width: 150px;
+    height: 150px;
+    margin: 30px 10%;
+  }
+
+  .photo-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 10%;
+  }
+}
