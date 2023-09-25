@@ -1,0 +1,33 @@
+body {
+  background-color: #232323;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
+.skills-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin-top: 40px;
+}
+
+.skills-photos ul {
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+}
+.skills-photos img {
+  width: calc(20% - 20px); /* Adjust the width as per your preference */
+  margin: 10px;
+  box-sizing: border-box;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .skills-photos img {
+    width: calc(50% - 20px);
+  }
+}/*# sourceMappingURL=styles.css.map */
