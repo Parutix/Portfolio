@@ -13,18 +13,27 @@ body {
   align-items: center;
   color: white;
   margin-top: 40px;
+}
 
-  img {
-    width: 150px;
-    height: 150px;
-    margin: 30px 10%;
+.skills-photos {
+  ul {
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
   }
 
-  .photo-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    margin: 30px 10%;
+  img {
+    width: calc(20% - 20px); /* Adjust the width as per your preference */
+    margin: 10px;
+    box-sizing: border-box;
+  }
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .skills-photos img {
+    width: calc(50% - 20px);
   }
 }

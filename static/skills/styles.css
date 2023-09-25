@@ -11,15 +11,23 @@ body {
   color: white;
   margin-top: 40px;
 }
-.skills-container img {
-  width: 150px;
-  height: 150px;
-  margin: 30px 10%;
-}
-.skills-container .photo-container {
+
+.skills-photos ul {
+  padding: 0;
   display: flex;
-  flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
-  margin: 30px 10%;
+  list-style: none;
+}
+.skills-photos img {
+  width: calc(20% - 20px); /* Adjust the width as per your preference */
+  margin: 10px;
+  box-sizing: border-box;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .skills-photos img {
+    width: calc(50% - 20px);
+  }
 }/*# sourceMappingURL=styles.css.map */
