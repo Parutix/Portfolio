@@ -16,6 +16,13 @@ body {
   width: 250px;
   height: 250px;
 }
+.about h1 {
+  color: #ffc300;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 25px auto;
+}
 
 .info-container {
   display: flex;
