@@ -3,6 +3,10 @@ body {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
 }
 
+.skills-title {
+  margin-bottom: 30px;
+}
+
 .skills-container {
   display: flex;
   flex-direction: column;
@@ -20,12 +24,11 @@ body {
   list-style: none;
 }
 .skills-photos img {
-  width: calc(20% - 20px); /* Adjust the width as per your preference */
-  margin: 10px;
+  width: calc(25% - 150px);
+  margin: 75px;
   box-sizing: border-box;
 }
 
-/* Media query for smaller screens */
 @media (max-width: 768px) {
   .skills-photos img {
     width: calc(50% - 20px);
