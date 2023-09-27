@@ -1,14 +1,20 @@
-const loadNavbar = () => {
-  const navbarContainer = document.getElementById("navbar-container");
-  const xhr = new XMLHttpRequest();
-  xhr.onreadystatechange = () => {
-    if (xhr.readyState === 4 && xhr.status === 200) {
-      navbarContainer.innerHTML = xhr.responseText;
+const loadResource = async (url, containerId) => {
+  try {
+    const response = await fetch(url);
+    if (!response.ok) {
+      throw new Error(`Failed to fetch ${url}`);
     }
-  };
-
-  xhr.open("GET", "navbar.html", true);
-  xhr.send();
+    const content = await response.text();
+    const container = document.getElementById(containerId);
+    container.innerHTML = content;
+  } catch (error) {
+    console.error(error);
+  }
 };
 
-loadNavbar();
+const loadAllResources = async () => {
+  await loadResource("../../views/navbar.html", "navbar-container");
+  await loadResource("../../views/footer.html", "footer-container");
+};
+
+loadAllResources();
