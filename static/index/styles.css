@@ -14,7 +14,7 @@ p {
 }
 
 .info_box {
-  margin-top: 20px;
+  margin-top: 10%;
   padding-top: 5%;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
   color: white;
@@ -33,9 +33,10 @@ p {
   margin-bottom: 2%;
 }
 
-.education-container h4 {
+h4 {
   font-size: 60px;
-  margin: 5% auto;
+  margin-top: 20%;
+  margin-bottom: 5%;
   color: #ffc300;
 }
 
@@ -110,6 +111,26 @@ p {
 }
 
 .timeline-container {
-  width: 100%;
-  max-width: 1000px;
+  margin: 25px auto;
+  max-width: 34.15em;
+}
+.timeline-container h2 {
+  color: #ffc300;
+}
+
+.checkpoint {
+  max-width: 34em;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  position: relative;
+}
+.checkpoint p {
+  line-height: 27px;
+  color: #ccc;
+}
+
+.checkpoint-info {
+  border: 2px solid #888;
+  border-radius: 1em;
+  padding: 1.5em;
 }/*# sourceMappingURL=styles.css.map */
