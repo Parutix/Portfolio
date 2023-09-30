@@ -1,0 +1,38 @@
+body {
+  background-color: #232323;
+}
+
+.projects-container {
+  margin: 5% auto;
+}
+
+.project {
+  background-color: #2a2929;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  margin: 5% auto;
+  padding: 40px;
+}
+.project h1 {
+  color: #ffc300;
+  margin-bottom: 20px;
+}
+.project p {
+  font-size: 20px;
+  color: white;
+  margin-bottom: 20px;
+}
+.project a {
+  font-size: 30px;
+  color: #ffc300;
+  text-decoration: none;
+  display: inline-block;
+  width: 100px;
+  margin: 0 auto;
+}
+.project span {
+  color: #ffc300;
+  font-size: 20px;
+}/*# sourceMappingURL=styles.css.map */

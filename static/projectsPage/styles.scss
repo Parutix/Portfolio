@@ -1,0 +1,46 @@
+$background-color: #232323;
+$seecondary-color: #2a2929;
+$font-color: #ffc300;
+
+body {
+  background-color: $background-color;
+}
+
+.projects-container {
+  margin: 5% auto;
+}
+
+.project {
+  background-color: $seecondary-color;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  margin: 5% auto;
+  padding: 40px;
+
+  h1 {
+    color: $font-color;
+    margin-bottom: 20px;
+  }
+
+  p {
+    font-size: 20px;
+    color: white;
+    margin-bottom: 20px;
+  }
+
+  a {
+    font-size: 30px;
+    color: $font-color;
+    text-decoration: none;
+    display: inline-block;
+    width: 100px;
+    margin: 0 auto;
+  }
+
+  span {
+    color: $font-color;
+    font-size: 20px;
+  }
+}
