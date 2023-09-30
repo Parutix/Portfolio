@@ -6,34 +6,38 @@ p {
   color: white;
 }
 
-#footer-container {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
+.main-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
 }
 
 .info_box {
-  margin-top: 20px;
-  text-align: center;
-  position: absolute;
-  top: 35%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  margin-top: 10%;
+  padding-top: 5%;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
   color: white;
 }
 .info_box h1 {
-  font-size: 25px;
+  font-size: 2em;
   margin-bottom: 0;
 }
 .info_box h2 {
   margin-top: 0;
-  font-size: 50px;
+  font-size: 3.5em;
   margin-bottom: 0;
 }
 .info_box h3 {
-  font-size: 25px;
-  margin-top: 3%;
+  font-size: 1.5em;
+  margin-bottom: 2%;
+}
+
+h4 {
+  font-size: 60px;
+  margin-top: 20%;
+  margin-bottom: 5%;
+  color: #ffc300;
 }
 
 .socials {
@@ -104,4 +108,29 @@ p {
 .socials ul li:nth-child(3):hover {
   color: #a9a9a9;
   box-shadow: 0 0 15px #a9a9a9;
+}
+
+.timeline-container {
+  margin: 25px auto;
+  max-width: 34.15em;
+}
+.timeline-container h2 {
+  color: #ffc300;
+}
+
+.checkpoint {
+  max-width: 34em;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  position: relative;
+}
+.checkpoint p {
+  line-height: 27px;
+  color: #ccc;
+}
+
+.checkpoint-info {
+  border: 2px solid #888;
+  border-radius: 1em;
+  padding: 1.5em;
 }/*# sourceMappingURL=styles.css.map */
