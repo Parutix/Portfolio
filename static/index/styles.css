@@ -15,7 +15,8 @@ p {
 
 .info_box {
   margin-top: 10%;
-  padding-top: 5%;
+  padding-top: 2%;
+  margin-bottom: 13%;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
   color: white;
 }
@@ -35,8 +36,8 @@ p {
 
 h4 {
   font-size: 60px;
-  margin-top: 20%;
-  margin-bottom: 5%;
+  margin-top: 5%;
+  margin-bottom: 2%;
   color: #ffc300;
 }
 
@@ -108,29 +109,4 @@ h4 {
 .socials ul li:nth-child(3):hover {
   color: #a9a9a9;
   box-shadow: 0 0 15px #a9a9a9;
-}
-
-.timeline-container {
-  margin: 25px auto;
-  max-width: 34.15em;
-}
-.timeline-container h2 {
-  color: #ffc300;
-}
-
-.checkpoint {
-  max-width: 34em;
-  padding-top: 2em;
-  padding-bottom: 2em;
-  position: relative;
-}
-.checkpoint p {
-  line-height: 27px;
-  color: #ccc;
-}
-
-.checkpoint-info {
-  border: 2px solid #888;
-  border-radius: 1em;
-  padding: 1.5em;
 }/*# sourceMappingURL=styles.css.map */
