@@ -17,4 +17,17 @@ const loadAllResources = async () => {
   await loadResource("../../views/footer.html", "footer-container");
 };
 
+const downloadCV = () => {
+  var cvLink = "../assets/Resume.pdf";
+
+  var anchor = document.createElement("a");
+  anchor.style.display = "none";
+  anchor.href = cvLink;
+  anchor.download = "Resume.pdf";
+
+  document.body.appendChild(anchor);
+  anchor.click();
+
+  document.body.removeChild(anchor);
+};
 loadAllResources();
