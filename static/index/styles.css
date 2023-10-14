@@ -23,17 +23,22 @@ p {
   padding: 10px 20px;
   border: 2.5px solid rgb(255, 255, 255);
   background-color: #232323;
-  font-size: 35px;
+  font-size: 25px;
   font-weight: 800;
-  text-decoration: none;
-  color: black;
+  color: rgb(255, 255, 255);
   transition: 0.4s;
+}
+.main-content .cv-button a {
+  text-decoration: none;
+  color: white;
 }
 .main-content .cv-button:hover {
   border: 2.5px solid black;
   background-color: #ffc300;
-  color: #232323;
   transition: 0.4s;
+}
+.main-content .cv-button:hover a {
+  color: #232323;
 }
 
 .info_box {
@@ -135,4 +140,26 @@ h4 {
 .socials ul li:nth-child(3):hover {
   color: #a9a9a9;
   box-shadow: 0 0 15px #a9a9a9;
+}
+
+@media screen and (max-width: 768px) {
+  .main-content {
+    margin-bottom: 20px;
+  }
+  .info_box {
+    margin-top: 3%;
+  }
+  h1 {
+    font-size: 1.5em;
+  }
+  h2 {
+    font-size: 2.2em;
+  }
+  h3 {
+    font-size: 1.2em;
+  }
+  p {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
 }/*# sourceMappingURL=styles.css.map */
